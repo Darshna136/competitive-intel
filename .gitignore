@@ -1,1 +1,31 @@
-.env 
+# Environment
+venv/
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node
+node_modules/
+client/node_modules/
+
+# Build
+client/dist/
+client/build/
+
+# Database snapshots
+db/*.txt
+db/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
